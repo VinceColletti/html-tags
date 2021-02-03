@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now!</title>
+</head>
+<body>
+    <h1>You won't get your important benefits if you don't <em>REGISTER NOW!</em></h1>
+
+    <!-- Text inputs for name, email, password, and confirmation -->
+    <h3>Basic information</h3>
+    <label for="first_name">First Name: </label>
+    <input type="text" id="first_name" name="first_name">
+    <br><br>
+    <label for="last_name">Last Name: </label>
+    <input type="text" id="last_name" name="last_name">
+    <br><br>
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="email">
+    <br><br>
+    <label for="password">Password: </label>
+    <input type="text" id="password" name="password">
+    <br><br>
+    <label for="pw_confirm">Confirm Password: </label>
+    <input type="text" id="pw_confirm" name="pw_confirm">
+
+    <!-- Date input for birthday -->
+    <h3>Tell us your birthday!</h3>
+    <label for="birthday">Birthday: </label>
+    <input type="date" id="birthday" name="birthday">
+
+    <!-- Multiple choice -->
+    <h3>What are some of your favorite things? (choose as many as you want)</h3>
+    <label for="thing_1">Thing 1</label>
+    <input type="checkbox" id="thing_1" name="things" value="thing_1">
+    <label for="thing_2">Thing 2</label>
+    <input type="checkbox" id="thing_2" name="things" value="thing_2">
+    <label for="thing_3">Thing 3</label>
+    <input type="checkbox" id="thing_3" name="things" value="thing_3">
+    <label for="thing_4">Thing 4</label>
+    <input type="checkbox" id="thing_4" name="things" value="thing_4">
+    <label for="thing_5">Thing 5</label>
+    <input type="checkbox" id="thing_5" name="things" value="thing_5">
+    <br>
+
+    <!-- Dropdown menu -->
+    <h3>What's your favorite programming language?</h3>
+    <select name="language">
+        <option value="javascript">Javascript</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="php">PHP</option>
+    </select>
+
+    <!-- Radio Buttons for gender selection -->
+    <h3>Knowing your gender helps us to better customize your experience</h3>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="non_binary">Non Binary</label>
+    <input type="radio" id="non_binary" name="gender" value="non_binary">
+    <label for="decline">Prefer not to say</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+
+    <!-- Text area for more information -->
+    <h3>Is there anything else that you would like us to know?</h3>
+    <textarea name="more_info">Tell us everything</textarea>
+    <br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+</body>
+</html>
